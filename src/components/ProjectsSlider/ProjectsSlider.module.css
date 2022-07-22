@@ -1,0 +1,29 @@
+.Slider {
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 90%;
+height: 85%;
+border-radius: 30px;
+box-shadow: 0 28px 79px 0 rgba(10, 22, 31, 0.35);
+background-color: #0e1f30;
+overflow: visible;
+}
+
+@media (min-width: 768px) {
+    .Slider {
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    width: 75%;
+    }
+}
+
+.SliderSlide {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+
