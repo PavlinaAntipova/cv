@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.8ac21cc0.css",
-    "main.js": "/cv/static/js/main.81d55aa1.js",
+    "main.js": "/cv/static/js/main.fb6f2eb0.js",
     "static/media/project-5.png": "/cv/static/media/project-5.744c9bfb216e3875d0e5.png",
     "static/media/project-1.png": "/cv/static/media/project-1.5739810d7d881c22c4f8.png",
     "static/media/project-4.png": "/cv/static/media/project-4.d3028baf77b67657367b.png",
     "static/media/project-3.png": "/cv/static/media/project-3.5cbf31f19e9ef2045f71.png",
     "static/media/project-2.png": "/cv/static/media/project-2.abe06f51374c112b453c.png",
     "static/media/project-7.png": "/cv/static/media/project-7.ac39893b89f93e060188.png",
+    "static/media/certifies-2.jpg": "/cv/static/media/certifies-2.9b65e05639322bae6ad5.jpg",
     "static/media/project-6.png": "/cv/static/media/project-6.ab6dad9d1265fd41d33d.png",
     "static/media/cat-3.jpeg": "/cv/static/media/cat-3.efe1fc3f583b62ec5c72.jpeg",
     "static/media/certifies-1.png": "/cv/static/media/certifies-1.c54e3a003eb7e2cfa8c7.png",
@@ -29,10 +30,10 @@
     "index.html": "/cv/index.html",
     "static/media/icon-circle.svg": "/cv/static/media/icon-circle.d5e77a7e51e5a828ea15b8b7b0dc337b.svg",
     "main.8ac21cc0.css.map": "/cv/static/css/main.8ac21cc0.css.map",
-    "main.81d55aa1.js.map": "/cv/static/js/main.81d55aa1.js.map"
+    "main.fb6f2eb0.js.map": "/cv/static/js/main.fb6f2eb0.js.map"
   },
   "entrypoints": [
     "static/css/main.8ac21cc0.css",
-    "static/js/main.81d55aa1.js"
+    "static/js/main.fb6f2eb0.js"
   ]
 }
