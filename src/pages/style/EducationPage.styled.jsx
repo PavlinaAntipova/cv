@@ -4,6 +4,10 @@ import styled from "styled-components";
 export const EducationItem = styled.li`
 margin-bottom: 10px;
 
+&:first-child {
+   cursor: pointer;
+}
+
 &:last-child {
     margin-bottom: 0;
 }

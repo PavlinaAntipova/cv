@@ -16,6 +16,7 @@ import memoryGameSection from '../images/project-mobile-6.png';
 import penseSection from '../images/project-mobile-7.png';
 import slimMomSection from '../images/project-mobile-8.png';
 import webDesign from '../images/certifies-1.png';
+import goIt from '../images/certifies-2.jpg';
 
 
 const imgPathes = {
@@ -54,7 +55,8 @@ const imgPathes = {
         section: slimMomSection
     },
     certificates: {
-        webDesign
+        webDesign,
+        goIt
     }
 }
 

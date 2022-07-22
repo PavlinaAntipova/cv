@@ -4,6 +4,7 @@ import { BsCursorFill } from 'react-icons/bs';
 import { EducationItem, Period, Courses, Certifications, CertificationsItem, NameBox, Img } from '../style/EducationPage.styled';
 
 import { certifications } from '../../data/certifications';
+import imgPathes from 'style-helper/imgPaths';
 
 const Education = () => {
     const [showModal, setShowModal] = useState(false);
@@ -14,16 +15,16 @@ const Education = () => {
     setShowModal(prevState => !prevState);
   }
 
-  const getItemId = id => {
-    setIdModalItem(id);
+    const getItemId = id => {
+        id ? setIdModalItem(id) : setIdModalItem(null);
   }
     
-const [modalItem] = certifications.filter(certification => idModalItem === certification.id);
+    const modalItem = idModalItem ? certifications.find(certification => idModalItem === certification.id) : { name: 'GoIT', img: imgPathes.certificates.goIt };
 
     return <section>
         <h2 className="visually-hidden">Education</h2>
         <Courses>
-            <EducationItem><div><BsCursorFill size='15'/><h3>IT School GOIT</h3></div> <Period>Jun 2021 - Jul 2022</Period>
+            <EducationItem onClick={(e) => { toggleModal();  getItemId()}}><div><BsCursorFill size='15'/><h3>IT School GOIT</h3></div> <Period>Jun 2021 - Jul 2022</Period>
             <p>Full Stack Developer | React + Node.js</p></EducationItem>
             <EducationItem><div><BsCursorFill size='15'/><h3>National University of Life and Environmental Sciences of Ukraine</h3></div> <Period>Sep 2014 - Jun 2018</Period>
             <p>Bachelor | Marketing</p></EducationItem>
